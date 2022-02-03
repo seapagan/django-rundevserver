@@ -69,4 +69,9 @@ RDS_DEBUG = True
 `RDS_ALL_INTERFACES` is very useful if you are developing on a remote machine
 where the default runserver localhost would not let you connect.
 
+## Todo
+
+* Add documentation
+* Add Tests
+
 [django]: https://www.djangoproject.com/
