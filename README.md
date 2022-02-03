@@ -1,5 +1,7 @@
 # django-rundevserver
 
+[![PyPI version](https://badge.fury.io/py/django-rundevserver.svg)](https://badge.fury.io/py/django-rundevserver)
+
 A simple [Django][django] addon to provide a new management command which runs a
 development server with custom host/port set in the applications `settings.py`
 file. You can also set the DEBUG variable here, allowing the default setting to
@@ -13,9 +15,7 @@ Install the addon using pip:
 pip install django-rundevserver
 ```
 
-### Install from local repository
-
-Or, if you have forked this repository to your local machine, you can build the
+__OR__, if you have forked this repository to your local machine, you can build the
 package using the following steps:
 
 ```bash
