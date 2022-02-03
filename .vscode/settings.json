@@ -1,0 +1,5 @@
+{
+  "restructuredtext.confPath": "",
+  "python.formatting.provider": "black",
+  "python.pythonPath": "/home/seapagan/.pyenv/versions/3.9.10/envs/django-rds/bin/python"
+}
