@@ -21,7 +21,7 @@ package using the following steps:
 ```bash
 pip install -r requirements.txt
 python setup.py sdist
-pip install dist/django-rundevserver-0.3.tar.gz
+pip install dist/django-rundevserver-0.3.1.tar.gz
 ```
 
 This implies your Python and Pip commands are as above, substitute your own
