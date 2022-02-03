@@ -50,13 +50,17 @@ __automatically enables the DEBUG setting.__ In this way, you can leave
 but during development or debugging it will be set to True.
 
 Configuration variables are set in the project `settings.py` and current accepted
-values are as below:
+values are as below. If all of these are unspecified, `rundevserver` will function
+exactly as `runserver` (except for the aforementioned DEBUG setting!):
 
 ```python
 # Chose which port to listen to, defaults to 8000 if unspecified
 RDS_PORT = 8001
-# Listen on all interfaces (ie 0.0.0.0) if true. Otherwise use 127.0.0.1
+
+# Listen on all interfaces (ie 0.0.0.0) if true. Otherwise (or if unspecified),
+# it will use the standard 127.0.0.1.
 RDS_ALL_INTERFACES = True
+
 # Force DEBUG mode if True OR unspecified. If you dont want DEBUG set in
 # development for some reason, specifiy False here
 RDS_DEBUG = True
